@@ -1,0 +1,89 @@
+html {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.player_container {
+    height: auto;
+    width: 400px;
+    border: solid 2px black;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+}
+
+.player_container.highlighted {
+    border: solid 4px lightgreen;
+}
+
+.round_container {
+    table-layout: fixed;
+    border: solid 1px black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 1em;
+}
+
+.round_container h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.round_container h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.round_container td {
+    border: solid 1px black;
+    padding: .5em;
+    width: 30px;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.round_container.highlighted {
+    border: solid 4px lightgreen;
+}
+
+.dice_to_select {
+    cursor: pointer;
+}
+
+.player_container h2 {
+    text-align: center;
+}
+.player_container h2.player_emblem {
+    line-height: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+.player_container.winner {
+    border: solid 5px gold;
+}
+
+.player_container.winner i.fa-award {
+    font-size: 2em;
+}
+
+.score.winner i.fa-award {
+    font-size: 1em;
+}
+
+.player_container.winner i.fa-award,
+.score.winner i.fa-award {
+    color: goldenrod;
+}
+
+.score {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    height: 1em;
+    margin: 0;
+    padding: 0;
+}

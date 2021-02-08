@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Dice Project
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" crossorigin="anonymous" />
+        <link rel="stylesheet" href="dice.css" />
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <table>
+            <tr id="dice_board">
+                <td>
+                    <h3>
+                        <i class="fas fa-user"></i>&#160;<span id="current_player"></span>
+                        <button type="button" id="roll_dice">
+                            Roll!
+                        </button>
+                    </h3>
+                    <span id="roll_comment"></span>
+                </td>
+            </tr>
+        </table>
+
+        <div id="game_board"></div>
+
+        <pre id="game_object"></pre>
+    </body>
+    <script src="dice.js"></script>
+</html>
