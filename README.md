@@ -16,8 +16,8 @@ After all four rounds have been completed the player with the lowest combined sc
 
 ## TODO
 * How do we handle tied rounds? Tied games?
-  * Tie-breaker round?
-  * Declare all lowest ties as the winner?
+  * Do lowest-tied players go into a tie-breaker round?
+  * Are all lowest ties declared as the winner?
 * Introduce poker-themed roll values (e.g.):
   * Yahtzee! (all five die are the same)
   * Large Straight (all five die are in sequence)
