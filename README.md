@@ -14,6 +14,17 @@ In this game players roll dice and try to collect the lowest score. A 4 counts a
 
 After all four rounds have been completed the player with the lowest combined score wins.
 
+## Requirements
+* Browser: Firefox 85.0+, Google Chrome 88.0+ or equivalent with JavaScript enabled
+
+## How to play
+1. Download `index.html`, `dice.css` and `dice.js`.
+2. From your browser, open file `index.html` and begin playing by clicking the *Roll!* button.
+3. To "keep" a dice from each roll, simply click on the dice (or die) desired.
+4. To play another game, refresh your browser.
+
+To change the amount of players, rounds or dice values, simply modify the values within the configuration section of `dice.js` then refresh your browser to see the changes take effect.
+
 ## TODO
 * How do we handle tied rounds? Tied games?
   * Do lowest-tied players go into a tie-breaker round?
